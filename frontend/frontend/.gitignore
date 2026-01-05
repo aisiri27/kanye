@@ -1,0 +1,18 @@
+# React frontend (nested)
+frontend/frontend/node_modules/
+frontend/frontend/build/
+
+# Python / ML
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large datasets / models
+ml/dataset.zip
+ml/dataset/
+ml/*.pth
+
+# OS / editor
+.vscode/
+.idea/

@@ -1,11 +1,20 @@
-# Python
+# ===== FRONTEND =====
+frontend/node_modules/
+frontend/frontend/node_modules/
+frontend/frontend/build/
+
+# ===== ML =====
+ml/dataset/
+ml/dataset.zip
+ml/*.pth
+
+# ===== PYTHON =====
 __pycache__/
 *.pyc
 
-# ML datasets (DO NOT COMMIT)
-ml/dataset/
-ml/dataset.zip
+# ===== ENV =====
+.env
+.env.*
 
-# OS
+# ===== OS =====
 .DS_Store
-Thumbs.db
